@@ -1,6 +1,53 @@
-body{
-    background-color: aqua;
+table, th, td{
+    border: solid 1px white;
+    font-family: Helvetica;
 }
-#sucursales{
+
+th, td{
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(51, 148, 194);
+    color: aliceblue;
+}
+
+table{
     font-size: 20px;
+    background-color: rgb(182, 214, 226);
+    text-align: center;
+    border-spacing: 0;
+}
+
+#btn_editar, #btn_borrar{
+    padding: 6px;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+#btn_editar{
+    background-color: rgb(185, 245, 185);
+}
+
+#btn_borrar{
+    background-color: rgb(243, 194, 194);
+}
+
+#btn_editar:hover{
+    background-color: rgb(15, 107, 15);
+    color: white;
+}
+
+ #btn_borrar:hover{
+    background-color: rgb(207, 67, 67);
+    color: white;
+}
+
+#btn_editar:active, #btn_borrar:active{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+h1{
+    color:  rgb(51, 148, 194);
 }

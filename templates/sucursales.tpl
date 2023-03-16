@@ -4,12 +4,13 @@
 </head>
 <body>
     <div>
-        <table id="sucursales">
+    <h1>{$titulo}</h1>
+        <table>
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
-                    <th>Telefono</th>
+                    <th>Teléfono</th>
                     <th>Domicilio</th>
                     <th>Editar</th>
                     <th>Borrar</th>
@@ -21,8 +22,8 @@
                     <td>{$fila["nombre"]}</td>
                     <td>{$fila["telefono"]}</td>
                     <td>{$fila["domicilio"]}</td>
-                    <td><button type="button" name="editar" id="{$fila['id']}" class="btn btn-warning btn-xs editar" onclick="modal('editar');">Editar</button></td>
-                    <td><button type="button" name="borrar" id="{$fila['id']}" class="btn btn-danger btn-xs borrar">Borrar</button></td>
+                    <td><button type="button" name="editar" id="btn_editar">Editar</button></td>
+                    <td><button type="button" name="borrar" id="btn_borrar">Borrar</button></td>
                 </tr>
             {/foreach}
         </table>

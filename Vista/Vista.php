@@ -10,6 +10,7 @@ class Vista{
     }
 
     public function enviar_tabla($in_resultado){
+        $this->smarty->assign('titulo',"Sucursales");
         $this->smarty->assign("resultado",$in_resultado);
         //$this->smarty->display("C:\Users\Emiliano\Documents\Instituto\EDI_III\Smarty\\templates\sucursales.tpl");
         $this->smarty->display("C:/xampp/htdocs/tp_edi3_smarty/templates/sucursales.tpl");
