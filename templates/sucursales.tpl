@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="css/estilos.css"></link>
 </head>
 <body>
+    {include file="C:/xampp/htdocs/tp_edi3_smarty/templates/header.tpl"}
     <div>
     <h1>{$titulo}</h1>
         <table>

@@ -1,12 +1,19 @@
+body{
+    width: 100%;
+}
+
 table, th, td{
     border: solid 1px black;
-
     font-family: Helvetica;
+}
+
+table{
+    position: relative;
+    width: 100%;
 }
 
 th, td{
     padding: 5px;
-
 }
 
 th{
@@ -52,6 +59,7 @@ table{
 
 h1{
     color:  rgb(51, 148, 194);
+    text-align: center;
 }
 
 .bd-footer{

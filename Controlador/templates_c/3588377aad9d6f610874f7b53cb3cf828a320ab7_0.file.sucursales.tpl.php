@@ -1,32 +1,35 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-03-16 23:24:40
+/* Smarty version 4.2.1, created on 2023-03-16 23:58:51
   from 'C:\xampp\htdocs\tp_edi3_smarty\templates\sucursales.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_64139728103251_28738876',
+  'unifunc' => 'content_64139f2babd283_81442019',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3588377aad9d6f610874f7b53cb3cf828a320ab7' => 
     array (
       0 => 'C:\\xampp\\htdocs\\tp_edi3_smarty\\templates\\sucursales.tpl',
-      1 => 1679005454,
+      1 => 1679007530,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:C:/xampp/htdocs/tp_edi3_smarty/templates/header.tpl' => 1,
     'file:C:/xampp/htdocs/tp_edi3_smarty/templates/footer.tpl' => 1,
   ),
 ),false)) {
-function content_64139728103251_28738876 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64139f2babd283_81442019 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="css/estilos.css"></link>
 </head>
 <body>
+    <?php $_smarty_tpl->_subTemplateRender("file:C:/xampp/htdocs/tp_edi3_smarty/templates/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
     <div>
     <h1><?php echo $_smarty_tpl->tpl_vars['titulo']->value;?>
 </h1>
