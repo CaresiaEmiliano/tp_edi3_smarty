@@ -28,4 +28,5 @@
             {/foreach}
         </table>
     </div>
+    {include file="C:/xampp/htdocs/tp_edi3_smarty/templates/footer.tpl"}
 </body>

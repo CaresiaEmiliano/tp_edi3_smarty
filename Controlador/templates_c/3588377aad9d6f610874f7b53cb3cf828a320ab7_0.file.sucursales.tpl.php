@@ -1,26 +1,27 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-03-16 22:08:35
+/* Smarty version 4.2.1, created on 2023-03-16 23:24:40
   from 'C:\xampp\htdocs\tp_edi3_smarty\templates\sucursales.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6413855364bcf3_42073217',
+  'unifunc' => 'content_64139728103251_28738876',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3588377aad9d6f610874f7b53cb3cf828a320ab7' => 
     array (
       0 => 'C:\\xampp\\htdocs\\tp_edi3_smarty\\templates\\sucursales.tpl',
-      1 => 1679000910,
+      1 => 1679005454,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:C:/xampp/htdocs/tp_edi3_smarty/templates/footer.tpl' => 1,
   ),
 ),false)) {
-function content_6413855364bcf3_42073217 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64139728103251_28738876 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="css/estilos.css"></link>
@@ -63,5 +64,7 @@ $_smarty_tpl->tpl_vars['fila']->do_else = false;
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
         </table>
     </div>
+    <?php $_smarty_tpl->_subTemplateRender("file:C:/xampp/htdocs/tp_edi3_smarty/templates/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
 </body><?php }
 }
