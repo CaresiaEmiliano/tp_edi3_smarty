@@ -1,14 +1,5 @@
 <?php
-/*
-session_start();
 
-if(!isset($_SESSION["usuario"])){
-    header("location: login.php");
-}else{
-    require_once("Template/header.php");
-    require_once("menu.php");
-    require_once("Template/footer.php");
-}*/
 ?>
 
 <!doctype html>
@@ -52,75 +43,61 @@ if(!isset($_SESSION["usuario"])){
         <!-- Aqui card Productos -->
         <div class="row" >
           <div class="col-sm-4">
-              <div class="card" style="width: 18rem;">
+              <div class="card" >
                 <img src="css/img/calzado2.jfif" class="card-img-top" alt="Productos">
                 <div class="card-body">
                   <h5 class="card-title">
-                  <a href="http://localhost/stockar/productos.php" class="card-link">Productos</a>
+                  <a href="#" class="card-link">Productos</a>
                   </h5>
-       <!--           <p class="card-text">
-                  <li>Alta</li> 
-                  <li>Baja</li> 
-                  <li>Modificación</li>
-                  <li>Búsqueda</li></p>-->
+
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
-                  <a href="color_productos.php" class="card-link">Colores</a></li>
+                  <a href="#" class="card-link">Colores</a></li>
                   <li class="list-group-item">
-                  <a href="genero_productos.php" class="card-link">Géneros</a></li>
+                  <a href="#" class="card-link">Géneros</a></li>
                   <li class="list-group-item">
-                  <a href="marca_productos.php" class="card-link">Marcas</a></li>
+                  <a href="#" class="card-link">Marcas</a></li>
                   <li class="list-group-item">
-                  <a href="modelo_productos.php" class="card-link">Modelos</a></li>
+                  <a href="#" class="card-link">Modelos</a></li>
                   <li class="list-group-item">
-                  <a href="http://localhost/stockar/tipo_productos.php" class="card-link" height="180px">Tipos</a></li>
+                  <a href="#" class="card-link" height="180px">Tipos</a></li>
                 </ul>
             </div>
           </div>
 
               <!-- Aqui card Sucursal -->
           <div class="col-sm-4">
-              <div class="card" style="width: 18rem;">
+              <div class="card" >
             <img src="css/img/sucursales1.jfif" class="card-img-top" alt="Sucursales" height="180px">
             <div class="card-body">
               <h5 class="card-title">
               <a href="sucursal.php" class="card-link">Sucursal</a>
               </h5>
-      <!--         <p class="card-text">
-              <li>Alta</li> 
-              <li>Baja</li> 
-              <li>Modificación</li>
-              <li>Búsqueda</li>-->
+
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-              <a href="http:\\localhost\stockar\almacen.php" class="card-link">Almacenes</a></li>
+              <a href=# class="card-link">Almacenes</a></li>
             </ul>
         </div>
       </div>
                <!-- Aqui card Stock -->
                <div class="col-sm-4">
-              <div class="card" style="width: 18rem;">
+              <div class="card">
             <img src="css/img/stock1.jfif" class="card-img-top" alt="Productos" height="180px">
             <div class="card-body">
               <h5 class="card-title">
-              <a href="stock.php" class="card-link">Stock</a>
+              <a href="#" class="card-link">Stock</a>
               </h5>
-     <!--          <p class="card-text">
-              <li>Alta</li> 
-              <li>Baja</li> 
-              <li>Modificación</li>
-              <li>Búsqueda</li>-->
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-              <a href="movimientos.php" class="card-link">Movimientos</a></li>
+              <a href="#" class="card-link">Movimientos</a></li>
             </ul>
         </div>
       </div>
     </div>
-    <?php require_once("Template/footer.php");?>
 
    </body>
 

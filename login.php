@@ -20,8 +20,9 @@
     </style>
 </head>
 <body id="body_login">
-    <form id="form_login" action="C:/xampp/htdocs/tp_edi3_smarty/Sesion/inicio.php" method="post">
+    <form id="form_login" action="Sesion\inicio.php" method="post">
         <h1>Inicio de sesión</h1>
+        
         <!-- Email input -->
         <div class="form-outline mb-4">
         <input type="usuario" id="form2Example1" class="form-control" name="usuario" required/>
@@ -38,6 +39,5 @@
         <button class="btn btn-outline-primary w-100" type="submit" id="boton_signin" >Ingresar</button>
         <span class="errors text-center" style="color:red">Error al iniciar sesión<br/>Verifique Usuario y Contraseña</span>
     </form>
-</body>
 </body>
 </html>

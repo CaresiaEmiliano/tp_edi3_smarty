@@ -7,11 +7,6 @@ table, th, td{
     font-family: Helvetica;
 }
 
-table{
-    position: relative;
-    width: 100%;
-}
-
 th, td{
     padding: 5px;
 }
@@ -22,6 +17,8 @@ th{
 }
 
 table{
+    position: relative;
+    width: 100%;
     font-size: 20px;
     background-color: rgb(182, 214, 226);
     text-align: center;
@@ -65,4 +62,26 @@ h1{
 .bd-footer{
     width: 100%;
     text-align: center;
+}
+
+#body_login{
+    display: flex;
+    justify-content: center;
+}
+
+#form_login{
+    margin: 10px;
+    padding: 30px;
+}
+
+.col-sm-4{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card{
+    width: 18rem;
+
 }

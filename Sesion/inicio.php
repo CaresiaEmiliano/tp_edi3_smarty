@@ -1,7 +1,11 @@
 <?php
-    include_once("C:/xampp/htdocs/tp_edi3_smarty/Modelo/Modelo.php");
+   /* include_once("C:/xampp/htdocs/tp_edi3_smarty/Modelo/Modelo.php");
     include_once("C:/xampp/htdocs/tp_edi3_smarty/login.php");
-    include_once("C:/xampp/htdocs/tp_edi3_smarty/Clases/Login.php");
+    include_once("C:/xampp/htdocs/tp_edi3_smarty/Clases/Login.php");*/
+
+    include_once("../Modelo/Modelo.php");
+    include_once("../login.php");
+    include_once("../Clases/Login.php");
     
     $conect = new Conexion();
     if(isset($_POST)){
