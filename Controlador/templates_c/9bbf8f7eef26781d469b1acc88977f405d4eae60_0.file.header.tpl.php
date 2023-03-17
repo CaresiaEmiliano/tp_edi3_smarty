@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-03-17 01:04:09
+/* Smarty version 4.2.1, created on 2023-03-17 15:18:50
   from 'C:\xampp\htdocs\tp_edi3_smarty\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6413ae7945f7f0_05364626',
+  'unifunc' => 'content_641476ca8c82e4_70372662',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9bbf8f7eef26781d469b1acc88977f405d4eae60' => 
     array (
       0 => 'C:\\xampp\\htdocs\\tp_edi3_smarty\\templates\\header.tpl',
-      1 => 1679010664,
+      1 => 1679062726,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6413ae7945f7f0_05364626 (Smarty_Internal_Template $_smarty_tpl) {
+function content_641476ca8c82e4_70372662 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" href="css/estilos.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb" crossorigin="anonymous">
@@ -76,7 +76,7 @@ function content_6413ae7945f7f0_05364626 (Smarty_Internal_Template $_smarty_tpl)
                 </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="C:/xampp/htdocs/tp_edi3_smarty/Sesion/cerrar_sesion.php">Salir</a>
+                    <a class="nav-link" href="Sesion/cerrar_sesion.php">Salir</a>
                 </li>
                 </ul>
             </div>

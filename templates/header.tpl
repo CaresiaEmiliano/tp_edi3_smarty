@@ -53,7 +53,7 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="C:/xampp/htdocs/tp_edi3_smarty/Sesion/cerrar_sesion.php">Salir</a>
+                    <a class="nav-link" href="Sesion/cerrar_sesion.php">Salir</a>
                 </li>
                 </ul>
             </div>
