@@ -20,7 +20,7 @@
     </style>
 </head>
 <body id="body_login">
-    <form id="form_login" action="Sesion\inicio.php" method="post">
+    <form id="form_login" action="Sesion/inicio.php" method="post">
         <h1>Inicio de sesión</h1>
         
         <!-- Email input -->

@@ -1,16 +1,18 @@
 <?php
-include_once("conexion.php");
+include_once("../Clases/conexion.php");
 
-class Modelos{
+class Modelo{
 
     private $conexion;
+    private $tabla;
 
-    public function __construct(){
+    public function __construct($in_tabla){
         $this->conexion = new Conexion();
+        $this->tabla = $in_tabla;
     }
 
     public function traer_generos(){
-        $query = "SELECT * FROM stockaR.v_sucursales vs";
+        $query = "SELECT * FROM stockaR.".$this->tabla;
         $con = $this->conexion->get_conection();
         $stmt = $con->query($query);
         return $stmt->fetchAll();

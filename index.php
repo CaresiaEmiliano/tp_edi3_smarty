@@ -72,7 +72,7 @@
             <img src="css/img/sucursales1.jfif" class="card-img-top" alt="Sucursales" height="180px">
             <div class="card-body">
               <h5 class="card-title">
-              <a href="sucursal.php" class="card-link">Sucursal</a>
+              <a href="sucursal" class="card-link">Sucursal</a>
               </h5>
 
             </div>

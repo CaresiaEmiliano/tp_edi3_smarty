@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="css/estilos.css"></link>
 </head>
 <body>
-    {include file="C:/xampp/htdocs/tp_edi3_smarty/templates/header.tpl"}
+    {include file="../templates/header.tpl"}
     <div>
     <h1>{$titulo}</h1>
         <table>
@@ -29,5 +29,5 @@
             {/foreach}
         </table>
     </div>
-    {include file="C:/xampp/htdocs/tp_edi3_smarty/templates/footer.tpl"}
+    {include file="../templates/footer.tpl"}
 </body>

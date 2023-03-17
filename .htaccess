@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule ^(sucursal.php)$ Controlador/Controler.php
+    RewriteRule ^(/)$ index.php
+    RewriteRule ^(sucursal)$ Controlador/Controler.php?origen=$1
 </IfModule>
