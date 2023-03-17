@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="css/estilos.css"></link>
-</head>
-<body>
     {include file="../templates/header.tpl"}
     <div>
     <h1>{$titulo}</h1>
@@ -30,4 +25,3 @@
         </table>
     </div>
     {include file="../templates/footer.tpl"}
-</body>

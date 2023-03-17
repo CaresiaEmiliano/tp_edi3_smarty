@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -47,7 +43,7 @@
                 <img src="css/img/calzado2.jfif" class="card-img-top" alt="Productos">
                 <div class="card-body">
                   <h5 class="card-title">
-                  <a href="#" class="card-link">Productos</a>
+                  <a href="productos" class="card-link">Productos</a>
                   </h5>
 
                 </div>
@@ -88,7 +84,7 @@
             <img src="css/img/stock1.jfif" class="card-img-top" alt="Productos" height="180px">
             <div class="card-body">
               <h5 class="card-title">
-              <a href="#" class="card-link">Stock</a>
+              <a href="stock" class="card-link">Stock</a>
               </h5>
             </div>
             <ul class="list-group list-group-flush">

@@ -1,5 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
+    RewriteRule \.(?:css|js|jpe?g|gif|png)$ - [L]
     RewriteRule ^(/)$ index.php
-    RewriteRule ^(sucursal)$ Controlador/Controler.php?origen=$1
+    RewriteRule ^([a-z]+)$ Clases/Router.php?origen=$1
 </IfModule>
